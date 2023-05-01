@@ -1,0 +1,29 @@
+.photo-grid__item{
+    margin:0;
+    max-width: 284px;
+    min-height: 213px;
+    object-fit: cover;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+@media screen and (max-width:1279px){
+    .photo-grid__item{
+        max-width: 300px;
+        min-height: 225px;
+    }
+}
+
+@media screen and (max-width:1023px){
+    .photo-grid__item{
+        max-width: 352px;
+        min-height: 264px;
+    }
+}
+
+@media screen and (min-width:767px){
+    .photo-grid__item{
+        min-width: 288px;
+        min-height: 216px;
+    }
+} 
