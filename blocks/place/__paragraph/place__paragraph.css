@@ -7,7 +7,7 @@
     align-self: start;
 }
 
-.place__paragraph:last of child{
+.place__paragraph :last-child{
     margin-bottom:0;
 }
 
