@@ -1,4 +1,4 @@
-.intro__list_flex{
+.intro__list__flex{
     display: flex;
     flex-direction: row;
 }
