@@ -10,20 +10,8 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width:1279px){
-    .lead__caption{
-        max-width: 158px;
-    }
-}
-
-@media screen and (max-width:1023px){
-    .lead__caption{
-        max-width: 158px;
-    }
-}
-
 @media screen and (max-width:767px){
     .lead__caption{
-        max-width: 158px;
+        margin-left:16px;
     }
 }
