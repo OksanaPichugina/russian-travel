@@ -7,13 +7,12 @@
     margin-top: 92px;
     background: linear-gradient(0deg,rgba(42,44,47,0.3),rgba(42,44,47,0.3)),
     url('../../../images/cover-trains.jpg');
-    -moz-background-size: 100%; 
-    -webkit-background-size: 100%; 
-    -o-background-size: 100%; 
+    -moz-background-size: cover;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
 }
 
 .cover:hover{
