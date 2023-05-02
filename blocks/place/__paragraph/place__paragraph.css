@@ -1,18 +1,36 @@
-.place__paragraph{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
+.place__paragraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+  align-self: start;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 26px;
+}
+
+.place__paragraph:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .place__paragraph {
+    font-size: 16px;
     line-height: 163%;
-    color: #FFFFFF;
-    align-self: start;
+    max-width: 456px;
+    margin-bottom: 25px;
+  }
 }
 
-.place__paragraph :last-child{
-    margin-bottom:0;
-}
-
-@media screen and (max-width:767px){
-    .place__paragraph{
-        margin:32px 16px 50px;
-    }
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+    max-width: 288px;
+    font-size: 16px;
+    line-height: 163%;
+    margin: 0 16px 25px;
+  }
+  .place__paragraph:last-child {
+    margin-bottom: 50px;
+  }
 }

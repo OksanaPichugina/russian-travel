@@ -1,0 +1,9 @@
+.header__list-link {
+  margin-top: 18px;
+}
+
+@media screen and (max-width: 767px) {
+  .header__list-link {
+    margin-top: 14px;
+  }
+}

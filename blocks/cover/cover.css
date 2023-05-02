@@ -1,54 +1,56 @@
-.cover{
-    max-width: 1184px;
+.cover {
+  max-width: 1184px;
+  min-height: 740px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 92px;
+  background: linear-gradient(
+      0deg,
+      rgba(42, 44, 47, 0.3),
+      rgba(42, 44, 47, 0.3)
+    ),
+    url("../../images/__background.png");
+  background-size: contain;
+  -moz-background-size: 100%;
+  -webkit-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cover:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(42, 44, 47, 0.8),
+      rgba(42, 44, 47, 0.8)
+    ),
+    url("../../images/__background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover {
+    max-width: 1024px;
     min-height: 640px;
-    display: flex;
-    flex-direction: column;
-    margin:0 auto;
-    margin-top: 92px;
-    background: linear-gradient(0deg,rgba(42,44,47,0.3),rgba(42,44,47,0.3)),
-    url('../../../images/cover-trains.jpg');
-    -moz-background-size: cover;
-    -webkit-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
+  }
 }
 
-.cover:hover{
-    background: linear-gradient(0deg,rgba(42,44,47,0.8),rgba(42,44,47,0.8)),
-    url('../../../images/cover-trains.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+@media screen and (max-width: 1023px) {
+  .cover {
+    margin-top: 90px;
+    max-width: 768px;
+    min-height: 480px;
+  }
 }
 
-
-@media screen and (max-width: 1279px){
-    .cover{
-        max-width: 1024px;
-        margin-left: 0;
-        margin-right: 0;
-        min-height: 640px;
-    }
+@media screen and (max-width: 767px) {
+  .cover {
+    margin-top: 12px;
+    max-width: 360px;
+    min-height: 200px;
+  }
 }
-
-@media screen and (max-width: 1023px){
-    .cover{
-        margin-left:0;
-        margin-right: 0;
-        margin-top: 90px;
-        max-width: 768px;
-        min-height: 480px;
-    }
-}
-
-@media screen and (max-width: 767px){
-    .cover{
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: 66px;
-        max-width: 360px;
-        min-height: 200px;
-    }
-} 
