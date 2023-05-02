@@ -1,14 +1,12 @@
 .header__logo{
     max-width: 176px;
     max-height: 52px;
-    margin-right: 931px;
 }
 
 @media screen and (max-width: 1279px){
     .header__logo{
         max-width: 176px;
         max-height: 52px;
-        margin-right: 675px;
     }
 }
 
@@ -16,7 +14,6 @@
     .header__logo{
         max-width: 176px;
         max-height: 52px;
-        margin-right: 467px;
     }
 }  
 
@@ -25,6 +22,5 @@
     .header__logo{
         max-width: 142px;
         max-height: 42px;
-        margin-right: 84px;
     }
 }

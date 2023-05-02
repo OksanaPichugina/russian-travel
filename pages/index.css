@@ -1,12 +1,10 @@
 @import url(../vendor/normalize.css);
 @import url(../fonts/fonts.css);
-@import url(../fonts/static/Inter-Bold.ttf);
-@import url(../fonts/static/Inter-Regular.ttf);
-@import url(../fonts/static/Inter-Black.ttf);
 @import url(../blocks/body/body.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
@@ -15,9 +13,11 @@
 @import url(../blocks/lead/__caption/lead__caption.css);
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list/_flex/intro__list_flex.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__list/_numbers/_numbers.css);
+@import url(../blocks/intro/__list/_regular/intro__list_regular.css);
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/__item.css);
 @import url(../blocks/places/places.css);
