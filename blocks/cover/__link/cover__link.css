@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .cover__link::before {
@@ -16,6 +17,6 @@
   content: "";
 }
 
-.cover:hover .cover__link::before {
+.cover__link:hover::before {
   opacity: 0.8;
 }
