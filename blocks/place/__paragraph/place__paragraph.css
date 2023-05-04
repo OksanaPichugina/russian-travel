@@ -2,7 +2,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 29.34px;
+  line-height: 29px;
   color: #ffffff;
   align-self: start;
   margin: 0;
@@ -17,7 +17,7 @@
 @media screen and (max-width: 1023px) {
   .place__paragraph {
     font-size: 16px;
-    line-height: 26.08px;
+    line-height: 26px;
     max-width: 456px;
     margin-bottom: 25px;
   }
